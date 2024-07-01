@@ -123,8 +123,6 @@ create_section(cv, "working_experience")
 create_section(cv, "short_courses")
 ```
 
-<br>
-
 ## <i class="fa-solid fa-newspaper"></i> Publications
 
 ```{r}
