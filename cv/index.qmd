@@ -16,7 +16,7 @@ knitr:
 #| include: false
 #| cache: false
 googlesheets4::gs4_deauth()
-cv_url <- "https://docs.google.com/spreadsheets/d/1hkhU0OKpuzpw_fuJlDI8g2g-xuOTb8_r4XybPk5rhmE/edit?usp=sharing"
+cv_url <- Sys.getenv("cv_url")
 
 cv <- googlesheets4::read_sheet(cv_url)
 ```
