@@ -16,7 +16,7 @@ knitr:
 #| include: false
 #| cache: false
 googlesheets4::gs4_deauth()
-cv_url <- Sys.getenv("cv_url")
+cv_url <- Sys.getenv("cv_url_en")
 
 cv <- googlesheets4::read_sheet(cv_url)
 ```
@@ -40,6 +40,8 @@ Hello, my name is Adhara! I'm a Senior Data Analyst at one of Brazil's six refer
 <i class="fas fa-chalkboard-teacher"></i> [Data Analysis and the REDCap Platform](https://www.linkedin.com/events/an-lisededadoscomaplataformared7211506271647113216/theater/).
 
 <i class="fas fa-chalkboard-teacher"></i> [Optimizing Data Science Work Using REDCap, Quarto, and Power BI Integrated via API.](https://accamargo.iweventos.com.br/evento/nfcc2023/trabalhosaprovados/naintegra/4317)
+
+<i class="fas fa-chalkboard-teacher"></i> [R Software Course - Module 1](https://redcap.bp.org.br/surveys/?s=9M3NWMNEAP)
 
 ### Languages
 
@@ -139,7 +141,7 @@ create_section(cv, "education")
 
 <p class="small">
 
-Resume made with 🩵 and [Quarto](https://quarto.org/). Last updated on `r format.Date(Sys.Date(), "%b %d, %Y")`. <br> Code available on <i class="fa-brands fa-github"></i> [GitHub](https://github.com/adihara). <br>License: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/).
+Resume made with [Quarto](https://quarto.org/). Last updated on `r format.Date(Sys.Date(), "%b %d, %Y")`. <br> Code available on <i class="fa-brands fa-github"></i> [GitHub](https://github.com/adihara). <br>License: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/).
 
 </p>
 :::
